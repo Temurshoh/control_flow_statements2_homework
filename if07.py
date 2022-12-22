@@ -13,7 +13,7 @@ def main(temp):
     Returns:
         str: return answer.
     """
-    if temp<0:
+    if temp<=0:
         n="muzlatish"
     elif temp<=10:
         n="juda sovuq"
